@@ -43,4 +43,12 @@ your comment here
 
 comment
 
+# how to get length of array?
+echo "${#myarray[*]}"
+
+# how to get specific values ?
+echo "${myarray[*]:1}"
+echo "${myarray[*}:2:4}"
+
+
 
