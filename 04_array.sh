@@ -12,4 +12,9 @@ echo "value in 3rd index ${myarray[3]}"
 echo "No of values, length of an array is ${#myarray[*]}"
 
 	echo " values from index 2-3 ${myarray[*]:2:2}"
-	
+
+# updating our array with new values
+
+myarray+=( 88 99 98 )
+echo "values of new array are ${myarray[*]}"
+
