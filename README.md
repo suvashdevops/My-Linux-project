@@ -32,3 +32,14 @@ What is Shell Scripting
    ctrl+z to stop                
    
 </P>
+# COMMENTS 
+Using 
+# This is a comment
+
+Multi-line comment
+<< comment
+.........
+your comment here
+
+comment
+
