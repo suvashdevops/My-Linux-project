@@ -50,5 +50,56 @@ echo "${#myarray[*]}"
 echo "${myarray[*]:1}"
 echo "${myarray[*}:2:4}"
 
+# String operations
+
+myVar="Hello World!"
+lenght=${#myVar}
+upper=${X^^}
+lower=${Y,,}
+replace=${myVar/world/buddy}
+slice=${myVar:4:11}
+
+# Taking input from user 
+
+read <var_name>
+read -p "your name" name
+
+# how to use expressions
+using  let command
+
+let A++
+let A=5*6
+output 
+ex:
+A=5
+B=6
+let mul=$A*$B
+echo "$mul"
+((A++))
+((A=5*6))
+example:
+echo "multiple is $(($A*$B))"
+
+# CONDITIONAL STATEMENT
+
+# if [ $marks -gt 40 ];
+then
+echo "you are pass"
+else 
+echo "you are fail"
+fi
+
+#  Oerators
+
+Equal                           -eq/==
+Greaterthanequal                -ge
+lessthanequal                   -le
+Not Equal                       -ne/!=
+Greater than                    -gt
+less than                       -lt
+
+
+
+
 
 
