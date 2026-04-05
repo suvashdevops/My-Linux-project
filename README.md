@@ -62,7 +62,7 @@ slice=${myVar:4:11}
 # Taking input from user 
 
 read <var_name>
-read -p "your name" name
+# read -p "your name" name
 
 # how to use expressions
 using  let command
@@ -83,21 +83,27 @@ echo "multiple is $(($A*$B))"
 # CONDITIONAL STATEMENT
 
 # if [ $marks -gt 40 ];
-then
-echo "you are pass"
-else 
-echo "you are fail"
-fi
+# then
+# echo "you are pass"
+# else 
+# echo "you are fail"
+# fi
 
 #  Oerators
 
-Equal                           -eq/==
-Greaterthanequal                -ge
-lessthanequal                   -le
-Not Equal                       -ne/!=
-Greater than                    -gt
-less than                       -lt
+# Equal                           -eq/==
+# Greaterthanequal                -ge
+# lessthanequal                   -le
+# Not Equal                       -ne/!=
+# Greater than                    -gt
+# less than                       -lt
 
+# case choice in
+# echo "==================="
+# echo " ===DevOps========"
+# echo "1. Today date"
+# echo "2. ls current file "
+# echo "3. pwd current location"
 
 
 

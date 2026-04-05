@@ -13,5 +13,5 @@ elif [[ $marks -ge 40 ]]
 then
 	echo "3th Division"
 else
-	echo "your ar fial......"
+	echo "your ar fail......"
 fi
