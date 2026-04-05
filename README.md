@@ -101,9 +101,9 @@ echo "multiple is $(($A*$B))"
 # case choice in
 # echo "==================="
 # echo " ===DevOps========"
-# echo "1. Today date"
-# echo "2. ls current file "
-# echo "3. pwd current location"
+# echo "1) Today date"
+# echo "2) ls current file "
+# echo "3) pwd current location"
 
 
 
